@@ -3,5 +3,4 @@ A fiber-gorm project. This was my Internet-Engineering Final and I implemented i
 
 # Description
 We have Student and Course entities and GradeReport as a bridge entity
-
- you can use Postman json file to send declared requests
+you can use Postman json file to send declared requests
