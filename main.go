@@ -37,6 +37,11 @@ func setupRoutes(app *fiber.App) {
 	app.Post("/gradereport", routes.EnterGrade)
 
 	app.Get("/gradereport/:studentid", routes.GetReport)
+
+	app.Put("/gradereport", routes.UpdateGrade)
+
+	app.Delete("/gradereport", routes.DeleteGrade)
+
 }
 
 func main() {
