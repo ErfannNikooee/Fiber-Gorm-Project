@@ -5,6 +5,7 @@ A fiber-gorm project. This was my Internet-Engineering Final and I implemented i
 We have Student and Course entities and GradeReport as a bridge entity .\
 We store Student's informations in Student and Course's information in Course. \
 In GradeReport, we save student's grades for course : Student X has Grade 19 in Course Y \
+I used SQL datbase and you can use sqlite extension in vscode to obeseve it.\
 You can use Postman json file to send declared requests:\
 ### Student Requests:
 * Create Student
