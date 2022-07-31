@@ -6,21 +6,21 @@ We have Student and Course entities and GradeReport as a bridge entity .\
 We store Student's informations in Student and Course's information in Course. \
 In GradeReport, we save student's grades for course : Student X has Grade 19 in Course Y \
 You can use Postman json file to send declared requests:\
-### Student Requests
+### Student Requests:
 * Create Student
 * Get a Student informations
 * Get all Students' informations
 * Update a Student's informations
 * Delete a Student
 
-### Course Requests
+### Course Requests:
 * Create Course
 * Get a Course's informations
 * Get All Courses' informations
 * Update a Course's informations
 * Delete a Course
 
-### GradeReport Requests
+### GradeReport Requests:
 * Enter a Grade for Student
 * Get a Student's Grades Report
 * Update a Student's Grade
